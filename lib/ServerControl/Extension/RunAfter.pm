@@ -1,12 +1,12 @@
 # vim: set ts=3 sw=3 tw=0:
 # vim: set expandtab:
 
-package ServerControl::Extension::RunAfter
+package ServerControl::Extension::RunAfter;
 
 use strict;
 use warnings;
 
-our $VERSION = '0.1.0';
+our $VERSION = '0.2.0';
 
 use ServerControl::Extension;
 use Data::Dumper;
