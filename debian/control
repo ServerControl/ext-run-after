@@ -1,0 +1,12 @@
+Source: servercontrol-extension-run-after
+Section: admin
+Priority: optional
+Maintainer: Jan Gehring <jan.gehring@gmail.com>
+Build-Depends: debhelper (>= 4), perl (>= 5.10.0)
+Standards-Version: 3.5.1
+Homepage: https://github.com/servercontrol
+
+Package: servercontrol-extension-run-after
+Architecture: all
+Depends: perl (>= 5.10.0), libyaml-perl
+Description: Run Commands after instance start
